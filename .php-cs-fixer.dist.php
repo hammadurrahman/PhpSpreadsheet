@@ -242,5 +242,5 @@ $config
         'whitespace_after_comma_in_array' => true,
         'yoda_style' => false,
     ]);
-
+    ->name('/(\.php|^generate-document|^generate-locales|^check-phpdoc-types)$/')
 return $config;
